@@ -3,7 +3,7 @@ English Only!
 ## Mine Standalone has released!
 
 Hello again, dear friend. Thank you for being with us and supporting our ideas throughout the long development cycle. MineOS has finally reached the release stage: now it is a completely independent operating system with its own development API and wonderful [illustrated wiki](https://github.com/IgorTimofeev/MineOS/wiki) of it's usage. 
-MineOS is a GUI based operating system for the Open Computers Minecraft mod. It has extensive and powerful customisation abilities as well as an app market to publish your creations among the OS community.
+Mine is a GUI based operating system for the Open Computers Minecraft mod. It has extensive and powerful customisation abilities as well as an app market to publish your creations among the OS community.
 Here's a list of a few features:
 
 -   Multitasking
@@ -14,7 +14,7 @@ Here's a list of a few features:
 -   File sharing over the local network via modems
 -   Client connections to real FTP servers
 -   An internal IDE with syntax highlighting and debugger
--   Integrated application and library App Market with the ability to publish your own scripts and programs for every MineOS user
+-   Integrated application and library App Market with the ability to publish your own scripts and programs for every Mine user
 -   Error reporting system with the possibility to send information to developers
 -   Animations, wallpapers, screensavers, color schemes and huge customization possibilities
 -   Open source system API and detailed illustrated documentations
