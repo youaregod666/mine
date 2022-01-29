@@ -33,4 +33,4 @@ After a moment, a nice system installer will be shown. You will be prompted to s
 
 ## How to create applications and work with API?
 
-[Wiki](https://github.com/IgorTimofeev/MineOS/wiki)
+[Wiki by IgorTimofeev](https://github.com/IgorTimofeev/MineOS/wiki)
