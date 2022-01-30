@@ -90,7 +90,7 @@ function system.getDefaultUserSettings()
 		interfaceWallpaperMode = 1,
 		interfaceWallpaperBrightness = 0.9,
 
-		interfaceScreensaverEnabled = false,
+		interfaceScreensaverEnabled = true,
 		interfaceScreensaverPath = paths.system.screensavers .. "Space.lua",
 		interfaceScreensaverDelay = 20,
 		
@@ -110,7 +110,7 @@ function system.getDefaultUserSettings()
 		interfaceColorDropDownMenuDefaultText = 0x2D2D2D,
 
 		filesShowExtension = false,
-		filesShowHidden = false,
+		filesShowHidden = true,
 		filesShowApplicationIcon = true,
 
 		iconWidth = 12,
