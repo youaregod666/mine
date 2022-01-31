@@ -1,3 +1,4 @@
+
 -- Checking for required components
 local function getComponentAddress(name)
 	return component.list(name)() or error("Required " .. name .. " component is missing")
@@ -16,7 +17,7 @@ local EEPROMProxy, internetProxy, GPUProxy =
 GPUProxy.bind(getComponentAddress("screen"))
 local screenWidth, screenHeight = GPUProxy.getResolution()
 
-local repositoryURL = "https://raw.githubusercontent.com/youaregod666/mine/master/"
+local repositoryURL = "https://raw.githubusercontent.com/IgorTimofeev/MineOS/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
@@ -238,11 +239,11 @@ local installerMenu = menu:addContextMenuItem("Mine", 0x2D2D2D)
 installerMenu:addItem("Shutdown").onTouch = function()
 	computer.shutdown()
 end
-installerMenu:addItem("Reboot").onTouch = function()
+installerMenu:addItem("Restart").onTouch = function()
 	computer.shutdown(true)
 end
 installerMenu:addSeparator()
-installerMenu:addItem("Stop Installer").onTouch = function()
+installerMenu:addItem("Exit Installer").onTouch = function()
 	workspace:stop()
 end
 
