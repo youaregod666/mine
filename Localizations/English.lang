@@ -20,6 +20,7 @@
 	networkName = "Name of this PC",
 	networkSearchRadius = "Searching radius",
 	openWith = "Open with",
+	welcome = "Welcome"
 	select = "Choose application…",
 	keepInDock = "Keep in dock",
 	closeAllWindows = "Close all windows",
