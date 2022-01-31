@@ -44,7 +44,7 @@ local function title()
 	local y = math.floor(screenHeight / 2 - 1)
 	centrizedText(y, 0x2D2D2D, "MineOS")
 
-	return y + 2
+	--return y + 2
 end
 
 local function status(text, needWait)
