@@ -17,7 +17,7 @@ local EEPROMProxy, internetProxy, GPUProxy =
 GPUProxy.bind(getComponentAddress("screen"))
 local screenWidth, screenHeight = GPUProxy.getResolution()
 
-local repositoryURL = "https://xenodochial-jennings-7562a9.netlify.app/"
+local repositoryURL = "https://raw.githubusercontent.com/youaregod666/mine/blob/main"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
