@@ -2,7 +2,7 @@
 local result, reason = ""
 
 do
-	local handle, chunk = component.proxy(component.list("internet")() or error("Required internet component is missing")).request("https://xenodochial-jennings-7562a9.netlify.app/Installer/BIOS.lua")
+	local handle, chunk = component.proxy(component.list("internet")() or error("Required internet component is missing")).request("https://raw.githubusercontent.com/youaregod666/mine/master/Installer/Main.lua")
 
 	while true do
 		chunk = handle.read(math.huge)
