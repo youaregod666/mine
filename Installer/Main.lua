@@ -17,7 +17,7 @@ local EEPROMProxy, internetProxy, GPUProxy =
 GPUProxy.bind(getComponentAddress("screen"))
 local screenWidth, screenHeight = GPUProxy.getResolution()
 
-local repositoryURL = "https://raw.githubusercontent.com/youaregod666/mine/blob/main/"
+local repositoryURL = "https://raw.githubusercontent.com/youaregod666/mine/master/"
 local installerURL = "Installer/"
 local EFIURL = "EFI/Minified.lua"
 
