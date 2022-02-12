@@ -1,4 +1,4 @@
-English Only!
+English
 
 ## Mine Standalone has released!
 
